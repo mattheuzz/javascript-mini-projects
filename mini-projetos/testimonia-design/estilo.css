@@ -7,9 +7,14 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+.titulo{
+    font-size: 26px;
+}
+
 .bloco{
     background-color: darkcyan;
-    max-width: 640px;
+    width: 640px;
+    height: 500px;
     margin: 50px auto;
     padding: 20px;
     text-align: center;
