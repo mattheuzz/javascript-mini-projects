@@ -4,7 +4,7 @@ var logar = document.querySelector('#logar')
 
 const executar = () => {
     logar.addEventListener('click', () => {
-        alert(`Seu email é: ${usuario.value} 
+        return(`Seu email é: ${usuario.value} 
         e sua senha é: ${senha.value}`)
     })
 }
