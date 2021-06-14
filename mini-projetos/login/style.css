@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(161, 161, 161);
+}
+
+.invalido{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.bloco{
+    background: #fff;
+    border-radius: 10px;
+    margin: 100px auto;
+    display: flex;
+    width: 640px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+form{
+    margin: auto;
+    align-items: center;
+}
+
+.caixa{
+    width: 200px;
+    margin: 20px;
+    display: flex;
+}

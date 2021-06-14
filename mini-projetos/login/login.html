@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <section class="bloco">
+        <form class="formulario" onsubmit="return verificarInput()">  
+            <h1 class="titulo">Formulario</h1>
+            <p class="invalido"></p>  
+            <input type="text" name="usuario" class="caixa" id="usuario"  placeholder="usuario">
+            <input type="password" name="senha" class="caixa" id="senha" placeholder="senha">
+            <input type="submit" value="login">
+        </form>
+    </section>    
+    <script src="login.js"></script>
+    
+</body>
+</html>
