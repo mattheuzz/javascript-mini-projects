@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    
+}
+
+#main{
+    background: rgb(156, 156, 156);
+    border-radius: 10px;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#titulo{
+    margin: 10px;
+}
+
+#filme{
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#resultado{
+    align-items: center;
+    margin: auto;
+    
+}
+
+#listfilme{
+    align-items: center;
+    margin: 10px 100px ;
+}

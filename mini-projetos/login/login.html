@@ -9,12 +9,12 @@
 </head>
 <body>
     <section class="bloco">
-        <form class="formulario" onsubmit="return verificarInput()">  
+        <form method="POST" class="formulario">  
             <h1 class="titulo">Formulario</h1>
             <p class="invalido"></p>  
             <input type="text" name="usuario" class="caixa" id="usuario"  placeholder="usuario">
             <input type="password" name="senha" class="caixa" id="senha" placeholder="senha">
-            <input type="submit" value="login">
+            <input type="submit" value="login" id="logar" disabled="true">
         </form>
     </section>    
     <script src="login.js"></script>

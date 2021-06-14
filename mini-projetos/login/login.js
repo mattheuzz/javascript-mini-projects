@@ -1,4 +1,29 @@
-function verificarInput(){
+var usuario = document.querySelector('#usuario')
+var senha = document.querySelector('#senha')
+var logar = document.querySelector('#logar')
+
+const executar = () => {
+    logar.addEventListener('click', () => {
+        alert(`Seu email é: ${usuario.value} 
+        e sua senha é: ${senha.value}`)
+    })
+}
+
+const checarInput = () => {
+    usuario.addEventListener('input', () =>{
+        senha.addEventListener('input', () => {
+            if(usuario.value.length > 0 && senha.value.length > 0){
+                logar.disabled = false
+                executar()
+            }
+        })
+    })
+}
+
+
+checarInput()
+
+/* function verificarInput(){
     if (usuario.value == 0 || usuario.value.length < 4){
         document.querySelector('.invalido').innerHTML = ("Minimo 4 caracteres para login e minimo 6 digitos para senha")
         return false
@@ -17,5 +42,5 @@ function verificarInput(){
 }
 
 
-
+ */
 
