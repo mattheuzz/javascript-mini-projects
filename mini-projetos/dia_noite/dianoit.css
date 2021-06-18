@@ -1,0 +1,52 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+    transition: 2s;
+}
+
+.slide{
+    opacity: 0;
+	position: absolute;
+}
+
+
+.noite{
+    background-color: black;
+    transition: 2s;
+}
+
+.bl{
+    background-color: rgb(221, 255, 72);
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+
+.bl .circle{
+    background-color: #fff;
+	border-radius: 50%;
+	position: center;
+	top: 10px;
+	left: 10px;
+	height: 15px;
+	width: 15px;
+	transform: translateX(0px);
+	transition: 1s;
+}
+
+.slide:checked + .bl .circle {
+	transform: translateX(24px);
+
+}
+.slide:checked + .bl{
+    background-color: rgb(1, 2, 88);
+}

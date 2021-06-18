@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.principal{
+    margin: 0 auto;
+}
+
+.top{
+    font-size: 28px;
+    background: #6c3385;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    line-height: 2;
+}
+
+.box-sugestions{
+    margin: 0 auto;
+    padding: 40px 0;
+    min-height: 40vh;
+}
+
+.box-sugenstion-t{
+    margin: 0;
+}
+
+.box-sugestion-items{
+    margin: 0 auto;
+    padding:30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+.box-votes{
+    margin: 15px;
+}

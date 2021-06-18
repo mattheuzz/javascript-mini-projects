@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+#containerQ{
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.questions{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgb(196, 192, 192);
+    margin: 10px 0;
+    padding: 30px;
+    width: 600px;
+}
+
+.conteudo{
+    display: none;
+}
+
+
+.show{
+    display: block;
+    margin: 10px 0;
+}

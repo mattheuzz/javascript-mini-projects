@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all-container{
+    background: rgb(119, 116, 116);
+    align-items: center;
+    margin: 0 auto;
+}
+
+.c-title{
+    color: #fff;
+    text-align: center;
+}
+
+.c-box{ 
+    color: #fff;
+    align-items: center; 
+    width: 500px;
+    background: #2e2f31;    
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(7, 7, 7, 0.2);    
+    padding: 10px;
+    margin: 10px auto;
+    
+}
+
+.espace{
+    line-height: 1;
+}
+
+.c-box__desc{    
+    margin: 10px;
+    line-height: 2;
+}
