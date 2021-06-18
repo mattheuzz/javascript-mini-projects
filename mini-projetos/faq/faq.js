@@ -14,11 +14,11 @@ let questions4 = document.querySelector('.questions4')
 function toogle(event){
     if (conteudo1.classList.contains('show')){
         conteudo1.classList.remove('show')
-        btn1.setAttribute("value", "V")
         questions1.style.backgroundColor = '#fff'
+        btn1.classList.remove('btn-show')
     } else{
+        btn1.classList.add('btn-show')
         conteudo1.classList.add('show')
-        btn1.setAttribute("value", "X")
         questions1.style.backgroundColor = 'rgb(196, 192, 192)'
     }
 }
@@ -26,11 +26,11 @@ function toogle(event){
 function toogle2(event){
     if (conteudo2.classList.contains('show')){
         conteudo2.classList.remove('show')
-        btn2.setAttribute("value", "V")
+        btn2.classList.remove('btn-show')
         questions2.style.backgroundColor = '#fff'
     } else{
         conteudo2.classList.add('show')
-        btn2.setAttribute("value", "X")
+        btn2.classList.add('btn-show')
         questions2.style.backgroundColor = 'rgb(196, 192, 192)'
     }
 }
@@ -38,11 +38,11 @@ function toogle2(event){
 function toogle3(event){
     if (conteudo3.classList.contains('show')){
         conteudo3.classList.remove('show')
-        btn3.setAttribute("value", "V")
+        btn3.classList.remove('btn-show')
         questions3.style.backgroundColor = '#fff'
     } else{
         conteudo3.classList.add('show')
-        btn3.setAttribute("value", "X")
+        btn3.classList.add('btn-show')
         questions3.style.backgroundColor = 'rgb(196, 192, 192)'
     }
 }
@@ -50,11 +50,11 @@ function toogle3(event){
 function toogle4(event){
     if (conteudo4.classList.contains('show')){
         conteudo4.classList.remove('show')
-        btn4.setAttribute("value", "V")
+        btn4.classList.remove('btn-show')
         questions4.style.backgroundColor = '#fff'
     } else{
         conteudo4.classList.add('show')
-        btn4.setAttribute("value", "X")
+        btn4.classList.add('btn-show')
         questions4.style.backgroundColor = 'rgb(196, 192, 192)'
     }
 }
