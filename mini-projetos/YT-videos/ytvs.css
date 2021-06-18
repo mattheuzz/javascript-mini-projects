@@ -70,7 +70,7 @@ body {
 
 .btn {
 	background-color: transparent;
-	border: 1px solid black;
+	border: 1px solid #000;
 	border-radius: 50%;
 	cursor: pointer;
 	display: flex;
